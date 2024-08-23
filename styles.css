@@ -7,9 +7,9 @@ body {
     background-color: #000000;
 }
 
-
 .container {
     text-align: center;
+    color: #fff;
 }
 
 #gifContainerImg {
@@ -73,16 +73,16 @@ button {
 }
 
 #messageContainer {
+    margin-top: 40px;
     font-size: 28px; /* Ajusta el tamaño de la fuente según tus preferencias */
     color: #ffffff; /* Color verde lima para hacer contraste con el rojo */
     font-family: 'Pacifico', cursive; /* Utilizando la fuente 'Pacifico' o la que prefieras */
-    text-shadow: 2px 2px 4px #ffffff; /* Sombra de texto para resaltar */
+    text-shadow: 2px 2px 4px #9cc5f4; /* Sombra de texto para resaltar */
     animation: pulse 1s infinite alternate; /* Animación pulsante */
 }
 
 #question {
     font-size: 40px; /* Tamaño de fuente más grande */
-    color: #fcf4f4;
 }
 
 @keyframes pulse {
@@ -90,7 +90,7 @@ button {
         transform: scale(1);
     }
     to {
-        transform: scale(1.2); /* Zoom más grande */
+        transform: scale(1.3); /* Zoom más grande */
     }
 }
 
